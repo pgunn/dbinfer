@@ -1,0 +1,6 @@
+dbinfer
+=======
+Analyse the structure of a database and infer relationships in the tables that
+might not have been explicitly declared. Also has options to display some more
+basic things.
+
