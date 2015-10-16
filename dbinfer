@@ -1,0 +1,36 @@
+#!/usr/bin/perl -w
+
+use strict;
+use warnings FATAL => qw(all);
+
+############
+# dbinfer - Perform mixed schema and data-based inference
+#	on tables in a database.
+#
+#	Can do a number of different kinds of queries,
+#	with a variety of willingness to load the database.
+
+sub main()
+{
+my %cfg = handle_args(@ARGV);
+# ...
+}
+
+sub handle_args(@)
+{
+my @args = @_;
+my %cfg;
+
+# ...
+return %cfg;
+}
+
+sub usage
+{
+
+}
+
+##############
+
+main();
+
