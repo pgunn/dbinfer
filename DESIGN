@@ -1,0 +1,13 @@
+Given some primitives that we may reimplement for various databases
+(primarily imagining SQL, but we might try even for things like Mongo),
+we can perform various types of operations that either display useful
+things or dig for useful things in a database.
+
+A given database library will be OO, will have a bunch of things
+it implements with standard args, and will offer enough reflection and
+the like to let us sensibly work with it generically.
+
+We'll prefer SQL terminology for the project, even for non-SQL databases.
+We also will try to parameterise our calls in ways where we can request
+various levels of coverage for value-based analysis. When a database
+supports it we'll do this with in-database calls.
